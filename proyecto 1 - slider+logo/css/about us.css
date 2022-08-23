@@ -1,0 +1,156 @@
+@media screen and (min-width:200px){
+ 
+   
+    .card img{
+        height: 300px;
+    }
+    .card a{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 5px;
+    }
+    .card{
+        padding-bottom: 15px;
+    }
+            }
+
+
+@media screen and (min-width:768px){
+                    
+                    .card a{
+                        position: absolute;
+                        bottom: 0;
+                        margin-bottom: 5px;
+                    }
+                    .card{
+                        padding-bottom: 5px;
+                    }
+                    .card img{
+                    height: 30%;
+                    }  
+                  
+                    }
+@media screen and (min-width:1000px){
+        
+    
+        .card img{
+        height: 40%;
+        }
+        }
+
+@media screen and (min-width:1024px){
+ 
+  
+ 
+    .card img{
+    height: 35%;
+    }
+            }
+
+@media screen and (min-width:1025px){
+ 
+  
+    .card img{
+    height: 40%;
+    }
+                        }
+
+@media screen and (min-width:1450px){
+   
+    .card img{
+        height: 50%;
+        }
+                            }
+
+.perfil-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    }
+                                                    
+     .perfil-card .avatar {
+    width: 125px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    }       
+     #icons-about i{
+        color:#6c757d;
+        width: 100px;
+     }
+     .fas {
+        color:#6c757d;
+    }
+     .phrases-text{
+        color:#23452D; 
+    }
+    .avatar img{
+        height: auto;
+    }
+                                                    
+     @media screen and (min-width:200px){
+        .card-about{
+            height: 180px;
+                                                        
+        }
+                }
+    @media screen and (min-width:768px){
+                                            
+    #container-about p{
+        font-size:large;
+                        
+     }
+     #container-about{
+         margin-top: 150px;
+     }
+             }
+    
+     @media screen and (min-width:912px){
+                                            
+    #container-about p{
+        font-size:x-large;
+                                }
+    .card-about{
+         height: 200px;
+                                                                                
+    }
+         }
+                                                    
+     @media screen and (min-width:1000px){
+                                 
+     #container-about p{
+                                                                                                
+         font-size:.875em;
+          text-align: justify;
+                                                                             
+      }
+     .card-about{
+         height: 135px;
+                                                     
+    }
+    #container-profile{
+         margin-top: 100px;
+     }
+     #container-about{
+         margin-top: 0px;
+     }
+             }
+                                                    
+    @media screen and (min-width:1200px){
+                                                     
+    #container-about p{
+                                                                                                            
+        font-size:.875em;
+        text-align: justify;
+                                                                                                           
+     }
+    .card-about{
+         height: 140px;
+                                                                                                        
+      }
+      #container-profile{
+          margin-top: 0px;
+     }
+              }

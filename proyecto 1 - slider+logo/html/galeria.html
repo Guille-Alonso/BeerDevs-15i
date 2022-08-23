@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beer Devs</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="icon" href="/proyecto 1 - slider+logo/assets/img/logo/11d72f268dce930e0545b7df52d7de6c.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <!-- NavBar Guillermo -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar fixed-top">
+      <div class="container">
+        <a class="navbar-brand title-navbar" href="../index.html">Beer 
+          <img src="../assets/img/logo/11d72f268dce930e0545b7df52d7de6c.png" alt="logo" class="main-image"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-beer-mug-empty"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav my-md-3" id="menu-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Gallery</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#subscription" href="#">Subscription</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about us.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="menu-login" href="login.html">Login</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+<!-- Modal suscripcion Guillermo-->
+<div class="modal fade" id="subscription" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-light" id="bg-modal-subscription">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">To Subscribe</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputName" class="form-label">User Name</label>
+            <input type="text" class="form-control" required id="exampleInputName" maxlength="15" minlength="3">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" required id="exampleInputPassword1" maxlength="15" minlength="3">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputBirthday" class="form-label">Birth</label>
+            <input type="date" class="form-control" required id="exampleInputBirthday">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputCountry" class="form-label">Country of Residence</label>
+            <br>
+            <select name="" id="exampleInputCountry"class="p-1">
+              <option value="">Argentina</option>
+              <option value="">Russia</option>
+              <option value="">EEUU</option>
+            </select>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="bg-modal-button">Register</button>
+          </div>
+        </form>
+      </div>
+    
+    </div>
+  </div>
+</div>
+<br><br><br><br><br>
+<!--  galeria gabriel --> 
+<section>
+  <article>
+    <h1 class="text-center mt-2">GALLERY</h1>
+      <div class="d-flex align-items-center justify-content-center"></div>
+        <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/cerveza-ale-amarga.jpg"  class="img-fluid my-3="ale marge">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/cerveza-ale-lambic.jpg"  class="img-fluid my-3="ale lambic">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/cerveza-lager-ambar.jpg" class="img-fluid my-3 alt="ambar">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/cerveza-lager-tipo-bock.jpg" class="img-fluid my-3 alt="lager bock">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/cerveza-lager.jpg"  class="img-fluid my-3 alt="lager">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/cerveza-porter.jpg" class="img-fluid my-3 alt="porter">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/cervezas-tipo-pilsner.jpg" class="img-fluid my-3 alt="pilsner">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/vino-de-cebada.jpg" class="img-fluid my-3 alt="cebada">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/cerveza-stout-guinness.jpg" class="img-fluid my-3 alt="guinnes">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/pale-ale-cerveza.jpg" class="img-fluid my-3 alt="pale ale">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/cerveza-stout-guinness.jpg" class="img-fluid my-3 alt="stout">
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+          <img src="../assets/img/galeria/cerveza-porter.jpg" class="img-fluid my-3 alt="porter">
+      </div>
+    </div>
+  </div></article>
+</section>
+  <br><br><br><br><br>
+      <!-- Footer Guillermo -->
+      <footer>
+        <div class="container-fluid bg-footer d-flex justify-content-center pt-3">
+            <div class="row" id="pie">
+                <div class="col-12 col-md-3"><img src="../assets/img/logo/11d72f268dce930e0545b7df52d7de6c.png" alt="logoooooooo" class="main-image"></div>
+                <!-- Footer Social Icons-->
+            <div class="col-12 col-md-5 mx-md-4">
+              <h2>Social Networks</h2>
+              <a class="btn btn-outline-light btn-social mx-1" href="error404.html"><i class="fab fa-fw fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light btn-social mx-1" href="error404.html"><i class="fab fa-fw fa-twitter"></i></a>
+              <a class="btn btn-outline-light btn-social mx-1" href="error404.html"><i class="fab fa-fw fa-linkedin-in"></i></a>
+              <a class="btn btn-outline-light btn-social mx-1" href="error404.html"><i class="fab fa-fw fa-dribbble"></i></a>
+            </div>
+                <div class="col-12 col-md-3"><p class="text-light">Website dedicated to the promotion of craft beers</p></div>
+            </div>
+        </div>
+      </footer>
+
+    <script src="https://kit.fontawesome.com/1fe18a85d6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+@media screen and (min-width:200px){
+    #comment{
+width: 250px;
+                           }
+                                                   }
+
+@media screen and (min-width:768px){
+        #comment{
+           width: auto;
+                     }
+                                        }
+#div-iframe{
+    position: relative;
+    padding-top: 25px;
+    height: 70vh;
+}
+#div-iframe iframe{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 100%;
+}

@@ -1,0 +1,81 @@
+@media screen and (min-width:280px){
+ 
+    .div-img{
+     
+     height: 50vh;
+     
+    }
+    #row{
+     margin-top: 10vh;
+    }
+    }
+ 
+ @media screen and (min-width:768px){
+    
+         .div-img{
+          
+             height: 450px;
+            }
+         }
+ @media screen and (min-width:1450px){
+    
+             .div-img{
+           
+                 height: 550px;
+                }
+             }
+ @media screen and (min-height:800px) and (min-width:768px){
+    
+                 .div-img {
+                 
+                         height: 75vh;
+                 
+                     }
+                 
+                     #row {
+                         margin-top: 0;
+                     }
+                 
+                     #pie {
+                         height: 21vh;
+                     }
+                 }
+ 
+                 @media screen and (max-width:767px){
+                    #div-form{
+                    order: 4;
+                    }
+                    }
+
+                    .div-img{
+                        background-image: url(../assets/img/carousel_img_prueba/beer.jpg);
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    
+                    
+#login-with a img{
+    border: 2px solid black;
+    }
+@media screen and (min-width:200px){
+    
+    #img-google{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    #login-with a img{
+        width: 150px;
+        }
+    }
+    @media screen and (min-width:1025px){
+    
+       #login-with{
+        flex-direction: row !important;
+        justify-content: center;
+       }
+       #img-google{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+        }

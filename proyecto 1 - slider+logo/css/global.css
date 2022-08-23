@@ -1,0 +1,110 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.main-image {
+    width: 80px;
+}
+.btn{
+    background-color: #23452D !important;
+}
+.bg-navbar{
+    background-color: #23452D;
+}
+.navbar-toggler i{
+    font-size: xx-large;
+}
+#bg-modal-subscription{
+    background-color: #8C8984;
+}
+.bg-modal-button{
+    background-color: #23452D;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+
+.bg-footer{
+    background-color: #8C8984;
+}
+.title-navbar{
+    font-weight: 600;
+}
+/* main{
+    height: 80vh;
+} */
+#pie{
+    color: #23452D ;
+    text-align: center;
+}
+
+@media screen and (min-width:376px){
+   #pie{
+    height: 50vh;
+   }
+  }
+  @media screen and (min-width:700px){
+    #pie{
+        height: 40vh;
+        
+       }
+}
+@media screen and (min-width:768px){
+    #pie{
+      
+        text-align: start;
+       }
+}
+@media screen and (min-width:1000px){
+    #pie{
+        height: 20vh;
+       }
+}
+
+nav{
+    position: relative;
+}
+
+@media screen and (min-width:990px){
+    #menu-nav{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #menu-login{
+        position: absolute;
+            left: 180%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    #menu-login{
+        position: absolute;
+            left: 210%;
+    }
+}
+@media screen and (min-width:1500px){
+    #menu-login{
+        position: absolute;
+            left: 230%;
+    }
+}
+/* @media screen and (max-width:767px){
+    #btn-close{
+        visibility: hidden;
+    }
+    } */
+
+@media screen and (min-height:800px) and (min-width:768px){
+    
+            #pie {
+                height: 21vh;
+            }
+        }
+select{
+    border-radius: 5px;
+}
+#justify-text{
+    text-align: justify !important;
+}

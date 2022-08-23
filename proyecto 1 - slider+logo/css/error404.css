@@ -1,0 +1,37 @@
+
+@media screen and (min-width:200px){
+    #error404 video{
+     width: 250px;
+    }
+                               }
+ @media screen and (min-width:300px){
+ #error404 video{
+  width: 350px;
+ }
+                             }
+ @media screen and (min-width:500px){
+ #error404 video{
+     width: 450px;
+ }
+                             }
+ @media screen and (min-width:768px){
+ #error404 video{
+  width: 600px;
+  height: 600px;
+  }
+                              }
+ @media screen and (min-width:820px){
+ #error404 video{
+     width: 700px;
+     height: 700px;
+     margin-bottom: 120px;
+  }
+                             }
+ @media screen and (min-width:1000px){
+ #error404 video{
+  width: 650px;
+  height: 350px;
+     margin-bottom: 0px;
+  }
+                                }
+ 
